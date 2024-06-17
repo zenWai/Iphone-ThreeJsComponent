@@ -17,3 +17,35 @@ body {
   border-color: #3b3b3b;
   user-select: none;
 }
+
+.c-screen-max-width {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  position: relative;
+  max-width: 1120px;
+}
+
+canvas {
+  touch-action: none;
+}
+
+@layer utilities {
+  .c-section-title {
+    @apply mb-5 translate-y-20 text-3xl font-medium text-gray opacity-0 md:text-5xl lg:mb-0 lg:text-6xl;
+  }
+  .c-padding {
+    @apply px-5 py-20 sm:px-10 sm:py-32;
+  }
+  .c-flex-center {
+    @apply flex items-center justify-center;
+  }
+  .c-color-container {
+    @apply flex items-center justify-center rounded-full bg-gray-300 px-4 py-4 backdrop-blur;
+  }
+  .c-size-btn-container {
+    @apply ml-3 flex items-center justify-center gap-1 rounded-full bg-gray-300 p-1 backdrop-blur;
+  }
+  .c-size-btn {
+    @apply flex h-10 w-10 items-center justify-center rounded-full bg-white text-sm text-black transition-all;
+  }
+}
