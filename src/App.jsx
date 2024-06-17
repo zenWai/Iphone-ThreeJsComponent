@@ -1,12 +1,11 @@
-import Iphone from './components/Iphone.jsx';
+import Iphone from "./components/Iphone.jsx";
 
 function App() {
-
   return (
     <main>
-      <Iphone/>
+      <Iphone />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;

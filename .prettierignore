@@ -1,0 +1,8 @@
+# Ignore artifacts:
+build
+coverage
+.eslintrc.cjs
+pnpm-lock.yaml
+
+# Ignore all HTML files:
+**/*.html

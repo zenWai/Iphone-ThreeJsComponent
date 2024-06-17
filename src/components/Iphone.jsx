@@ -1,9 +1,5 @@
 function Iphone() {
-  return (
-    <div>
-      Iphone Component
-    </div>
-  )
+  return <div className="uppercase">Iphone Component</div>;
 }
 
 export default Iphone;
